@@ -25,7 +25,7 @@ impl InteractiveSetup for PostgresDbConfig {
                 field_type: FieldType::Password,
                 condition: FieldCondition::Always,
                 prompt: "Password".to_string(),
-                required: true,
+                required: false,
             },
             ConfigField {
                 name: "port".to_string(),
